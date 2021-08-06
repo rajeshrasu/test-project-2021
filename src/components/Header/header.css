@@ -1,0 +1,88 @@
+.PageHeaderSets {
+    width: 100%;
+    float: left;
+}
+.StickyHeader .PageHeaderSets {
+    padding-top: 78px;
+}
+.PageHeaderContainer {
+	width: 100%;
+	float: left;
+    background-color: #fff;
+    position: relative;
+    z-index: 1
+}
+.LogoAndMenuContainer {
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.LogoAndMenuContainer .Logo img{
+    width: 35px;
+}
+.LogoAndMenuContainer .MenuItems a {
+    font-size: 13px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.ant-btn.btn-signin{
+    height: 32px;
+    background: #00E0CA;
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+    border: 1px solid #00E0CA;
+    border-radius: 30px;
+    padding: 4px 20px;
+}
+.btn-signin-ripple {
+    border-radius: 30px;
+    overflow: hidden;
+}
+.ant-btn.btn-signin:hover, 
+.ant-btn.btn-signin:focus {
+    color: #1B2474;
+    background: #fff;
+    border-color: #00E0CA;
+    box-shadow: none;
+}
+.header-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-profile .ant-dropdown-link{
+    display: flex;
+    align-items: center;
+}
+.header-profile .ant-dropdown-link .profile-name{
+    font-size: 12px;
+    color: #000;
+}
+.header-profile .ant-dropdown-link .avaicalID{
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+}
+.header-profile .ant-dropdown-link .down-arrow{
+    font-size: 11px;
+    color: #000;
+    margin-left: 15px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.PageHeaderContainer.HomePageHeader .MobileMenu,
+.PageHeaderContainer.HomePageHeader .MobileOverLay{
+    display: none;
+}
+.PageHeaderContainer.HomePageHeader .LogoAndMenuContainer {
+    justify-content: flex-start;
+}

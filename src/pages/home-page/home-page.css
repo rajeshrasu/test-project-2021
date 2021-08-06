@@ -1,0 +1,168 @@
+.HomePageContainer {
+    width: 100%;
+    float: left;
+}
+.header-container{
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+.header-container-left{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-container-left .page-title{
+    font-size: 16px;
+    color: #122C42;
+    font-weight: 500;
+}
+.ant-btn.btn-active{
+    height: 35px;
+    padding: 4px 20px;
+    font-size: 14px;
+    color: #ffff;
+    font-weight: 500;
+    background: #01B875;
+    border-color: #01B875;
+    text-transform: uppercase;
+}
+.ant-btn.btn-active:hover,
+.ant-btn.btn-active:focus{
+    color: #01B875;
+    background: #FFF;
+    border-color: #01B875;
+}
+.ant-btn.btn-default{
+    height: 35px;
+    padding: 4px 20px;
+    font-size: 14px;
+    color: #122C42;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #F3F3F3;
+    border-color: #E4E7E9;
+}
+.ant-btn.btn-default:hover,
+.ant-btn.btn-default:focus{
+    color: #122C42;
+    background: #FFF;
+    border-color: #E4E7E9;
+}
+.ant-btn.btn-default-icon{
+    width: auto;
+    height: 35px;
+    padding: 4px 15px;
+    font-size: 14px;
+    color: #122C42;
+    background: #F3F3F3;
+    border-color: #E4E7E9;
+    text-transform: uppercase;
+}
+.ant-btn.btn-default-icon:hover,
+.ant-btn.btn-default-icon:focus{
+    color: #122C42;
+    background: #FFF;
+    border-color: #E4E7E9;
+}
+.header-container .ant-btn .anticon {
+    transition: margin-left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    vertical-align: 0;
+}
+.header-container .ant-input{
+    height: 35px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #E4E7E9;
+}
+.header-container .ant-input-search-button {
+    height: 35px;
+    color: #122C42 !important;
+    border: transparent;
+    border-bottom: 1px solid #E4E7E9;
+}
+.header-container-right{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.page-body-container{
+    width: 100%;
+    float: left;
+}
+.page-card-design{
+    width: 100%;
+    float: left;
+    background: #F7F7F7;
+    border-radius: 10px;
+    padding: 10px;
+}
+.page-card-design .page-card-header{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #183247;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #F7F7F7;
+    border: transparent;
+    margin-bottom: 15px;
+}
+.page-card-design .page-card-body-content{
+    width: 100%;
+    float: left;
+}
+.order-card-design-green{
+    width: 100%;
+    float: left;
+    background: #fff;
+    color: #A9A9A9;
+    border-radius: 10px;
+    padding: 15px;
+    border-left: 4px solid #A1D56B;
+}
+.order-card-design-red{
+    width: 100%;
+    float: left;
+    background: #fff;
+    color: #A9A9A9;
+    border-radius: 10px;
+    padding: 15px;
+    border-left: 4px solid #FF5A59;
+}
+.serial-number{
+    width: 100%;
+    float: left;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.serial-badge{
+    margin-right: 10px;
+    background: #EAF3FF;
+    font-size: 13px;
+    color: #2676EB;
+    font-weight: 500;
+    border: 1px solid #2676EB;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.oredr-number{
+    font-size: 15px;
+    color: #122C42;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 13px;
+    font-weight: 400;
+}
+.card-text .semi-bold{
+    font-size: 13px;
+    font-weight: 600;
+}
+.order-card-design-scroll-height{
+    height: 800px !important;
+}
