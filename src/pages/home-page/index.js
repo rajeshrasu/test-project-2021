@@ -13,6 +13,7 @@ const suffix = (
       color: '#1890ff',
     }}
   />
+
 );
 
 const onSearch = value => console.log(value);
@@ -35,6 +36,7 @@ const HomePageComponent = () => {
 								<div>
 									<Button  className="btn-default-icon mr-2" icon={<FilterFilled />} />
 									<Button  className="btn-default-icon mr-2" icon={<SyncOutlined />} />
+
 								</div>
 							</div>
 						</div>
@@ -237,7 +239,7 @@ const HomePageComponent = () => {
 											<div className="row">
 												<div className="col-12 mb-2">
 													<div className="serial-number">
-														#25 <span className="serial-badge">Responsive Due</span>
+														# 25 <span className="serial-badge">Responsive Due</span>
 													</div>
 												</div>
 												<div className="col-12 mb-1">
@@ -269,7 +271,7 @@ const HomePageComponent = () => {
 											<div className="row">
 												<div className="col-12 mb-2">
 													<div className="serial-number">
-														#24 <span className="serial-badge">Responsive Due</span>
+														# 24 <span className="serial-badge">Responsive Due</span>
 													</div>
 												</div>
 												<div className="col-12 mb-1">
@@ -301,7 +303,7 @@ const HomePageComponent = () => {
 											<div className="row">
 												<div className="col-12 mb-2">
 													<div className="serial-number">
-														#23 <span className="serial-badge">Responsive Due</span>
+														# 23 <span className="serial-badge">Responsive Due</span>
 													</div>
 												</div>
 												<div className="col-12 mb-1">
